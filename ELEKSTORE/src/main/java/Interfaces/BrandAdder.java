@@ -41,30 +41,44 @@ public class BrandAdder extends javax.swing.JFrame {
         btnViewOrders = new java.awt.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(204, 204, 255));
+        getContentPane().setLayout(null);
 
         btnViewProducts.setBackground(new java.awt.Color(153, 153, 255));
         btnViewProducts.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnViewProducts.setLabel("View Products");
+        getContentPane().add(btnViewProducts);
+        btnViewProducts.setBounds(366, 125, 187, 49);
 
         btnViewBrands.setBackground(new java.awt.Color(153, 153, 255));
         btnViewBrands.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnViewBrands.setLabel("View Brands");
+        getContentPane().add(btnViewBrands);
+        btnViewBrands.setBounds(366, 243, 187, 49);
 
         btnAddCategory.setBackground(new java.awt.Color(153, 153, 255));
         btnAddCategory.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnAddCategory.setLabel("Add Category");
+        getContentPane().add(btnAddCategory);
+        btnAddCategory.setBounds(169, 184, 187, 49);
 
         btnAddProduct3.setBackground(new java.awt.Color(153, 153, 255));
         btnAddProduct3.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnAddProduct3.setLabel("Add Product");
+        getContentPane().add(btnAddProduct3);
+        btnAddProduct3.setBounds(169, 125, 187, 49);
 
         btnAddBrand.setBackground(new java.awt.Color(153, 153, 255));
         btnAddBrand.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnAddBrand.setLabel("Add Brand");
+        getContentPane().add(btnAddBrand);
+        btnAddBrand.setBounds(169, 243, 187, 49);
 
         btnAddProduct5.setBackground(new java.awt.Color(153, 153, 255));
         btnAddProduct5.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnAddProduct5.setLabel("View Categories");
+        getContentPane().add(btnAddProduct5);
+        btnAddProduct5.setBounds(366, 184, 187, 49);
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 204));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -91,90 +105,38 @@ public class BrandAdder extends javax.swing.JFrame {
                 .addGap(28, 28, 28))
         );
 
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 722, 107);
+
         btnViewCustomers.setBackground(new java.awt.Color(153, 153, 255));
         btnViewCustomers.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnViewCustomers.setLabel("View Customers");
+        getContentPane().add(btnViewCustomers);
+        btnViewCustomers.setBounds(169, 302, 187, 49);
 
         btnDailySales.setBackground(new java.awt.Color(153, 153, 255));
         btnDailySales.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnDailySales.setLabel("Daily Sales");
+        getContentPane().add(btnDailySales);
+        btnDailySales.setBounds(169, 361, 187, 49);
 
         btnTodaySales.setBackground(new java.awt.Color(153, 153, 255));
         btnTodaySales.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnTodaySales.setLabel("Today Sales");
+        getContentPane().add(btnTodaySales);
+        btnTodaySales.setBounds(366, 361, 187, 49);
 
         btnLogOut.setBackground(new java.awt.Color(153, 153, 255));
         btnLogOut.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnLogOut.setLabel("Log Out");
+        getContentPane().add(btnLogOut);
+        btnLogOut.setBounds(286, 420, 187, 49);
 
         btnViewOrders.setBackground(new java.awt.Color(153, 153, 255));
         btnViewOrders.setFont(new java.awt.Font("Century Gothic", 1, 18)); // NOI18N
         btnViewOrders.setLabel("View Orders");
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(169, 169, 169)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnDailySales, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnTodaySales, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnViewCustomers, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnViewOrders, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnAddBrand, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnViewBrands, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnAddCategory, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnAddProduct5, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnAddProduct3, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnViewProducts, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(btnLogOut, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(80, 80, 80)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnAddProduct3, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnViewProducts, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnAddCategory, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnAddProduct5, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnAddBrand, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnViewBrands, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btnViewCustomers, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnViewOrders, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btnDailySales, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnTodaySales, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnLogOut, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(108, Short.MAX_VALUE))
-        );
+        getContentPane().add(btnViewOrders);
+        btnViewOrders.setBounds(366, 302, 187, 49);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
